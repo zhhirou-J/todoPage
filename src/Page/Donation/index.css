@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@700&family=Noto+Serif+TC:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.all{
+    width: 100%;
+    height: 100vh;
+    background-color: lightslategrey;
+    background: 
+    linear-gradient(115deg,rgb(108, 139, 171) 50%, transparent 50%) center center /100% 100%,
+    url("C:\Users\Zhhirou\react\todo\test\src\duck.png") right center/ auto 100%;
+}
+
+.container{
+    height:max-content;
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+
+}
+
+.bannerText {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:first baseline;
+        padding: 50px;
+        padding-top: 150px;
+}
+
+.bannerText h1{
+    display: block;
+    text-align:left;
+    font-size: 35px;
+    font-weight: 900;
+    
+}
+
+.bannerText small{
+    display: block;
+    font-size: 25px;
+    border-bottom: 1px solid #333;
+    font-weight: 700;
+}
+
+.bannerText h2{
+    font-size: 30px;
+    font-family: 'Noto Serif TC', serif;
+    font-weight: 300;
+    
+}
+
+.bannerText p{
+    font-size: 25px;
+    font-weight: 300;
+    font-family: 'Noto Serif TC', serif;
+
+}
+
